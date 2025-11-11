@@ -16,7 +16,7 @@
 .speaker-belt {
   display: flex;
   gap: 20px;
-  animation: scrollBelt 60s linear infinite;
+  animation: scrollBelt 10s linear infinite;
   will-change: transform;
 }
 
