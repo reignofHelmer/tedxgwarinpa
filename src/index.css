@@ -1,15 +1,14 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background: #fff;
-  color: #111;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: black url("/public/homebg.png") center/cover no-repeat fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {

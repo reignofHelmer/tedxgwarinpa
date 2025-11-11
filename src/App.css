@@ -1,8 +1,13 @@
 body {
   margin: 0;
+  background: black;
   font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #111;
+  color: #ffffff;
+}
+.page-wrapper {
+  background: black url("/public/homebg.png") center/cover no-repeat fixed;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 section {

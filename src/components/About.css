@@ -1,15 +1,17 @@
 .about {
-  background: #f9f9f9;
-  padding: 60px 20px;
+  margin-top: 0;
+  width: 100vw;       /* full viewport width */
+  box-sizing: border-box; /* include padding in width */
 }
 
 .about h2 {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
 .about p {
+  color: rgb(255, 255, 255);
   max-width: 700px;
   margin: 0 auto;
   font-size: 1.2rem;

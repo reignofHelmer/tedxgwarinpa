@@ -1,11 +1,36 @@
 .footer {
-  background: black;
   color: white;
   text-align: center;
   padding: 20px;
+  width: 100vw;       /* full viewport width */
+  box-sizing: border-box; /* include padding in width */
 }
 
 .footer p {
   margin: 0;
   font-size: 0.9rem;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+  background-color: white;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.footer .social-icons a img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer .social-icons a:hover {
+  transform: scale(1.2);
+  filter: brightness(1.5);
 }

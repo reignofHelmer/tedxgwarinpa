@@ -1,11 +1,19 @@
 .schedule {
-  background: #f9f9f9;
   padding: 60px 20px;
+  width: 100vw;       /* full viewport width */
+  box-sizing: border-box; /* include padding in width */
 }
 
 .schedule h2 {
   font-size: 2rem;
+  color: #ddd;
   margin-bottom: 20px;
+}
+
+.schedule p {
+  font-size: 1.1rem;
+  color: #bbb;
+  margin-bottom: 30px;
 }
 
 .schedule ul {
